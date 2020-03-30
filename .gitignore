@@ -106,3 +106,4 @@ venv.bak/
 # pictures used 
 *.jpg
 *.JPG
+*.hex
