@@ -13,7 +13,7 @@ class hex_handler():
         for line in self.lines:
             if line.endswith('\n'):
                 line = line[:-1]
-                print(line)
+            print(line)
             
     def lineComprehension(self, line):
         # returns data structure in hexa, or None if an error occured
@@ -66,7 +66,7 @@ class hex_handler():
         return OK
     
 
-####
+#### @todo not working
     def findClosestAddress(self, address):
         closestAddress = 0
         closestLine = 0
